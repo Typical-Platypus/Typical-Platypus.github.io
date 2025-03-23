@@ -1,0 +1,103 @@
+body
+{
+	background-color: #222629;
+	color: #86C232;
+	font-family: Consolas, monaco, monospace;
+	font-style: normal; 
+	font-variant: normal;
+}
+
+h1 
+{
+	color: #FFF;
+	text-align: center;
+	font-family: 'VT323'; 
+	font-size: 100px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 81.4px;
+}
+
+a
+{
+	color: #DDD;
+}
+
+a:hover {
+  	color: #61892F;
+}
+		
+.Page
+{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.PageNav
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+.PageNav a
+{
+	
+	text-decoration: none;
+}
+
+.PageFooter
+{
+	text-align: center;
+}
+
+.PagePicture
+{
+	text-align: center;
+}
+
+.PagePicture img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.PagePicture h5
+{
+	color: #888;
+	margin: 10px auto;
+}
+
+.PageQuotation p
+{
+	background-color: #474B4F;
+	margin-left: 40px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left-style: solid;
+	border-width: medium;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+   	line-height: 80px;
+  }
+  
+  p
+  {
+  	margin-left: 20px;
+  	margin-right: 20px;
+  }
+  
+  .PageNav
+  {
+  	position: sticky;
+  	top: 0px;
+  	background-color: #222629;
+  }
+}
